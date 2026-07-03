@@ -4,6 +4,17 @@ A Claude Code skill that makes Claude Opus 4.8 think and act like Claude Fable 5
 
 ## Install
 
+### Via plugin marketplace (recommended)
+
+In Claude Code:
+
+```
+/plugin marketplace add JustinasLa/fable5-mindset
+/plugin install fable5-mindset@fable5-mindset
+```
+
+### Manual
+
 Copy the skill folder into your skills directory:
 
 ```
@@ -13,6 +24,8 @@ Copy the skill folder into your skills directory:
 # or per-project
 .claude/skills/fable5-mindset/SKILL.md
 ```
+
+(The skill file lives at `skills/fable5-mindset/SKILL.md` in this repo.)
 
 ## Use
 
