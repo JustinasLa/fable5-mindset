@@ -1,4 +1,6 @@
-<h1 align="center">fable5-mindset</h1>
+<p align="center">
+  <img src="docs/assets/banner.svg" alt="fable5-mindset — four-panel galaxy brain: default Opus habits escalate into the Fable 5 mindset" width="820">
+</p>
 
 <p align="center">
   <strong>lead with the outcome, skip the "Shall I…?"</strong>
@@ -10,9 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/JustinasLa/fable5-mindset/stargazers"><img src="https://img.shields.io/github/stars/JustinasLa/fable5-mindset?style=flat&color=yellow" alt="Stars"></a>
   <a href="https://docs.anthropic.com/en/docs/claude-code"><img src="https://img.shields.io/badge/works_with-Claude_Code-orange?style=flat" alt="Claude Code"></a>
-  <a href="https://github.com/JustinasLa/fable5-mindset/commits/master"><img src="https://img.shields.io/github/last-commit/JustinasLa/fable5-mindset?style=flat" alt="Last commit"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/JustinasLa/fable5-mindset?style=flat" alt="License"></a>
 </p>
 

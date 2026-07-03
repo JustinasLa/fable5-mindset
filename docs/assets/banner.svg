@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="440" viewBox="0 0 1440 440" role="img" aria-label="fable5-mindset galaxy brain banner: default Opus habits escalate into Fable 5 mindset">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d1020"/>
+      <stop offset="0.7" stop-color="#131a36"/>
+      <stop offset="1" stop-color="#1a1440"/>
+    </linearGradient>
+    <!-- stage 1: dim, dead brain -->
+    <radialGradient id="brain1" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#4a5068"/>
+      <stop offset="1" stop-color="#333850"/>
+    </radialGradient>
+    <!-- stage 2: faint spark -->
+    <radialGradient id="brain2" cx="0.5" cy="0.5" r="0.65">
+      <stop offset="0" stop-color="#7d88c8"/>
+      <stop offset="1" stop-color="#454e80"/>
+    </radialGradient>
+    <!-- stage 3: glowing -->
+    <radialGradient id="brain3" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#cfd6ff"/>
+      <stop offset="0.5" stop-color="#8b96ec"/>
+      <stop offset="1" stop-color="#5a63b8"/>
+    </radialGradient>
+    <radialGradient id="halo3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b96ec" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b96ec" stop-opacity="0"/>
+    </radialGradient>
+    <!-- stage 4: full galaxy -->
+    <radialGradient id="brain4" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#b9c4ff"/>
+      <stop offset="0.65" stop-color="#8a7df0"/>
+      <stop offset="1" stop-color="#4b3fa8"/>
+    </radialGradient>
+    <radialGradient id="halo4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a8b2ff" stop-opacity="0.85"/>
+      <stop offset="0.55" stop-color="#7c6cf0" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7c6cf0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8ebff"/>
+      <stop offset="1" stop-color="#a5b0ff"/>
+    </linearGradient>
+
+    <!-- right-facing head profile, ~130w x 170h, origin top-left of bounding box -->
+    <path id="head" d="M 62,2
+      C 28,4 6,32 4,62
+      C 2,86 10,100 6,116
+      L 0,138 L 14,144 L 12,162
+      C 12,172 20,177 32,175
+      C 34,185 44,190 56,187
+      L 56,206 L 108,206 L 108,178
+      C 126,164 134,140 134,112
+      C 134,54 112,6 62,2 Z"/>
+    <!-- brain blob nested in upper skull -->
+    <path id="brain" d="M 30,58
+      C 28,38 44,24 62,24
+      C 70,14 90,14 98,26
+      C 114,28 122,44 116,58
+      C 124,70 116,86 102,88
+      C 96,100 76,102 66,94
+      C 50,100 32,90 34,74
+      C 26,70 26,62 30,58 Z"/>
+  </defs>
+
+  <rect width="1440" height="440" fill="url(#bg)"/>
+
+  <!-- ambient stars, denser toward the right -->
+  <g fill="#e8ebff">
+    <circle cx="1210" cy="60" r="1.6" fill-opacity="0.7"/>
+    <circle cx="1300" cy="120" r="1.2" fill-opacity="0.6"/>
+    <circle cx="1390" cy="70" r="1.8" fill-opacity="0.8"/>
+    <circle cx="1150" cy="330" r="1.2" fill-opacity="0.5"/>
+    <circle cx="1360" cy="290" r="1.4" fill-opacity="0.6"/>
+    <circle cx="1050" cy="90" r="1.2" fill-opacity="0.5"/>
+    <circle cx="960" cy="320" r="1" fill-opacity="0.4"/>
+    <circle cx="760" cy="60" r="1" fill-opacity="0.35"/>
+    <circle cx="420" cy="330" r="0.9" fill-opacity="0.25"/>
+    <circle cx="180" cy="70" r="0.9" fill-opacity="0.2"/>
+  </g>
+
+  <!-- ===== panel 1 ===== -->
+  <g transform="translate(115,70)">
+    <use href="#head" fill="#232842" stroke="#3a4166" stroke-width="2"/>
+    <use href="#brain" fill="url(#brain1)"/>
+    <text x="67" y="250" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="17" fill="#6b7396">&#8220;Sure! I&#8217;d be happy to</text>
+    <text x="67" y="273" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="17" fill="#6b7396">help you with that!&#8221;</text>
+  </g>
+
+  <!-- ===== panel 2 ===== -->
+  <g transform="translate(455,70)">
+    <use href="#head" fill="#262c4c" stroke="#434b7a" stroke-width="2"/>
+    <use href="#brain" fill="url(#brain2)"/>
+    <text x="67" y="250" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="17" fill="#828cc0">&#8220;Shall I proceed with</text>
+    <text x="67" y="273" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="17" fill="#828cc0">step 1 of 12?&#8221;</text>
+  </g>
+
+  <!-- ===== panel 3 ===== -->
+  <g transform="translate(795,70)">
+    <ellipse cx="72" cy="60" rx="120" ry="100" fill="url(#halo3)"/>
+    <use href="#head" fill="#2a3158" stroke="#525d96" stroke-width="2"/>
+    <use href="#brain" fill="url(#brain3)"/>
+    <g stroke="#9aa5f2" stroke-width="2" stroke-linecap="round" stroke-opacity="0.7">
+      <line x1="72" y1="-14" x2="72" y2="-30"/>
+      <line x1="18" y1="6" x2="4" y2="-6"/>
+      <line x1="126" y1="6" x2="140" y2="-6"/>
+      <line x1="0" y1="56" x2="-18" y2="54"/>
+      <line x1="144" y1="56" x2="162" y2="54"/>
+    </g>
+    <text x="67" y="250" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="17" fill="#aab4e8">&#8220;Done. Tests pass.</text>
+    <text x="67" y="273" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="17" fill="#aab4e8">Here&#8217;s the one bug I found.&#8221;</text>
+  </g>
+
+  <!-- ===== panel 4: galaxy ===== -->
+  <g transform="translate(1135,70)">
+    <ellipse cx="72" cy="60" rx="165" ry="140" fill="url(#halo4)"/>
+    <!-- starburst -->
+    <g stroke="#c3ccff" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.9">
+      <line x1="72" y1="-20" x2="72" y2="-48"/>
+      <line x1="14" y1="2" x2="-8" y2="-16"/>
+      <line x1="130" y1="2" x2="152" y2="-16"/>
+      <line x1="-6" y1="58" x2="-34" y2="56"/>
+      <line x1="150" y1="58" x2="178" y2="56"/>
+      <line x1="8" y1="116" x2="-14" y2="132"/>
+      <line x1="136" y1="116" x2="158" y2="132"/>
+    </g>
+    <g fill="#ffffff">
+      <circle cx="20" cy="-18" r="2.2"/>
+      <circle cx="128" cy="-24" r="1.8"/>
+      <circle cx="168" cy="30" r="2"/>
+      <circle cx="-24" cy="34" r="1.8"/>
+      <circle cx="160" cy="110" r="1.6"/>
+      <circle cx="-16" cy="104" r="1.6"/>
+    </g>
+    <use href="#head" fill="#333a6e" stroke="#7d88d8" stroke-width="2.5"/>
+    <use href="#brain" fill="url(#brain4)"/>
+    <!-- tiny galaxy swirl inside brain -->
+    <g fill="none" stroke="#4b3fa8" stroke-width="2" stroke-opacity="0.55" stroke-linecap="round">
+      <path d="M 60,56 C 74,44 94,52 92,66 C 90,78 74,82 66,74"/>
+    </g>
+    <text x="67" y="250" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+          font-size="21" font-weight="bold" font-style="italic" fill="#e8ebff">fable5-mindset</text>
+    <text x="67" y="274" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="15" fill="#b9c2f5">leads with the outcome</text>
+  </g>
+
+  <!-- title strip -->
+  <text x="720" y="405" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="24" fill="url(#titleGrad)" letter-spacing="1">make Claude Opus 4.8 work like Claude Fable 5</text>
+</svg>
